@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: auto;
+    background-color: black;
+    border: 1px soild red;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.main{
+    position: relative;
+    top: 120vh;
+    animation: scroll linear 5s infinite;
+
+}
+@keyframes scroll{
+    from{top: 120vh;}
+    to{top: -60vh;}
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
